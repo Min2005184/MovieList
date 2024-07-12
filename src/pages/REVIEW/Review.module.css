@@ -1,0 +1,71 @@
+/* Review.module.css */
+
+.background {
+  background-image: url('../HomePageImage/group.jpg'); /* Adjust path as necessary */
+  background-position: center;
+  background-size: cover;
+  height: 80vh; /* Adjust height to cover entire viewport */
+  width: 100%;
+  z-index: -1;
+}
+
+.container { 
+  position: relative;
+  top: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.content {
+  max-width: 600px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.image {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 20px;
+  position: absolute;
+  left: 10%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  font-size: 24px;
+  margin-top: 20%;
+  margin-left: 0%;
+}
+
+.summary {
+  margin-top: 20px;
+  margin-left: 10%;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 10%;
+}
+
+.button {
+  margin-top: 20px;
+}
+
+.trailer {
+  width: 200%;
+  max-height: 200%;
+  position: relative;
+  margin-top: 30px;
+  left: -50%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#review {
+  padding: 50px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+}
+
+

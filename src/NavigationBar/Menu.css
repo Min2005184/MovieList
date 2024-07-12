@@ -1,0 +1,140 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Styles */
+.navbar {
+    position: static;
+    backdrop-filter: blur(10px); /* Blur effect */
+    box-shadow: 0 4px 6px rgba(232, 157, 27, 0.482); /* Soft shadow */
+    padding-left: 1.5rem;
+    padding-bottom: 4.2rem;
+    padding-top: rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+/* For AniMin title */
+.navbar-brand {
+    color: rgb(128, 154, 88);
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    padding-top: 0.5%;
+    &:hover {
+        color: rgb(88, 154, 149);
+    }
+}
+
+/* For Link*/
+.navbar-collapse {
+    position: absolute;
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+}
+
+.navbar-nav {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    margin: 0;
+    padding-left: 30rem;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link {
+    display: block;
+    text-align: center;
+    border-radius: 15px;
+    background: linear-gradient(to left, black, #3474b37a);
+    color: rgba(174, 45, 45, 0.8);
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background 0.3s ease, color 0.3s ease;
+
+    &.active {
+        color: rgb(235, 88, 31);
+        background: rgba(255, 255, 255, 0.1);
+    }
+
+    &:hover {
+        color: rgb(80, 167, 175);
+        background: rgba(255, 255, 255, 0.1);
+    }
+}
+
+.register-link {
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 0.25rem;
+    position: absolute;
+    right: -45%;
+    transition: background 0.3s ease, color 0.3s ease;
+
+    &:hover {
+        color: rgb(149, 25, 110);
+        background: rgba(255, 255, 255, 0.1);
+    }
+}
+
+
+
+
+/* Menu.css */
+.navbar-profile-image {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  
+  .profile-dropdown {
+    position: relative;
+    display: inline-block;
+    left: 800%;
+    padding-top: 10%;
+  }
+  
+  .profile-dropdown .dropdown-menu {
+    display: none;
+    position: absolute;
+    right: -120%;
+    background-color: #231010;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 5px;
+  }
+  
+  .profile-dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown-menu .dropdown-item {
+    color: rgb(29, 117, 149);
+    padding: 10px 10px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-menu .dropdown-item:hover {
+    background-color: #c2b2dd;
+  }
+  

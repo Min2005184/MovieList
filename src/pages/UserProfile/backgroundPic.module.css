@@ -1,0 +1,9 @@
+.backgroundPic {
+    background-image: url('./backgroundImage/love.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 150vh; /* Full height */
+    display: flex;
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+  }

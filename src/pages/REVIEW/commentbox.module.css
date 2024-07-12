@@ -1,0 +1,21 @@
+.commentBox {
+    margin-top: 3rem;
+    position: relative;
+    left: 18%;
+}
+
+textarea {
+    width: 90%;
+    height: 30%;
+}
+
+.commentInput {
+    position: absolute;
+    left: -10%;
+    top: 30%;
+}
+
+.submitButton {
+    margin-top: 3rem;
+    margin-left: 17rem;
+}

@@ -1,0 +1,28 @@
+.comments-container {
+    position: relative;
+    left: -25%;
+    margin: 20px;
+    padding: 20px;
+  }
+  
+  .comment {
+    border: 1px solid #d98181;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #09090874;
+  }
+  
+  .comment p {
+    margin: 0;
+  }
+  
+  .comment-text {
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid #2b2626;
+    border-radius: 5px;
+    background-color: #88b4b7;
+    margin-top: 5px;
+  }
+  

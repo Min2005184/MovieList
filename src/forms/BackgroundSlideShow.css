@@ -1,0 +1,126 @@
+/* Glass Background */
+.glass-background {
+    position: relative;
+    background: rgba(255, 255, 255, 0.1); /* Slightly transparent white background */
+    border: 1px solid rgba(29, 29, 29, 0.3); /* Light border */
+    backdrop-filter: blur(10px); /* Blur effect */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    padding: 2rem;
+    margin: 1rem;
+    margin-top: 6%;
+    border-radius: .5rem;
+    font-family: Arial, sans-serif;
+    max-width: 400px;
+    left: 20%;
+    transform: translateX(50%);
+    z-index: 1; /* Ensure it is above the background slideshow */
+}
+
+.children {
+    display: grid;
+    gap: 1rem .5rem;
+    justify-content: "flex-start";
+    grid-template-columns: "auto minmax(auto, 400px)";
+}
+
+.form-control {
+    padding: .5rem;
+    border: 1px solid rgba(29, 29, 29, 0.3);
+    border-radius: .45rem;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    font-size: 1rem;
+    outline: none;
+    width: 100%;
+    box-sizing: border-box;
+    color: #1d1d1d;
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 0.75rem 1.5rem;
+    border: 3px groove rgb(120, 52, 52);
+    border-radius: 10px;
+    background: rgba(29, 29, 29, 0.7);
+    color: rgb(88, 154, 149);
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: 6px -4px 6px rgba(27, 112, 41, 0.884); /* Added shadow */
+    transition: box-shadow 0.3s ease; /* Smooth transition for the shadow */
+}
+
+button:hover {
+    background: rgba(21, 78, 67, 0.9);
+    border: none;
+    color: white;
+    box-shadow: 6px 6px 8px rgba(197, 48, 48, 0.779); /* Enhanced shadow on hover */
+}
+
+
+
+/* Background Slideshow */
+.background-slideshow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: slideAnimation 42s infinite;
+    opacity: 0;
+}
+
+.slide1 {
+    background-image: url("../ImageGallery/bleach.jpg");
+}
+
+.slide2 {
+    background-image: url("../ImageGallery/death.jpg");
+    animation-delay: 6s;
+}
+
+.slide3 {
+    background-image: url("../ImageGallery/demon.jpg");
+    animation-delay: 12s;
+}
+
+.slide4 {
+    background-image: url("../ImageGallery/eyes.jpg");
+    animation-delay: 18s;
+}
+
+.slide5 {
+    background-image: url("../ImageGallery/Gojo.jpg");
+    animation-delay: 24s;
+}
+
+.slide6 {
+    background-image: url("../ImageGallery/kakashi.jpg");
+    animation-delay: 30s;
+}
+
+.slide7 {
+    background-image: url("../ImageGallery/itachi.jpg");
+    animation-delay: 36s;
+}
+
+
+.slide8 {
+    background-image: url("../ImageGallery/soulReaper.jpg");
+    animation-delay: 42s;
+}
+
+@keyframes slideAnimation {
+    0%, 14.29%, 100% { opacity: 0; }
+    4.76%, 9.52% { opacity: 1; }
+}

@@ -1,0 +1,20 @@
+const baseURL = process.env.REACT_APP_API_URL;
+
+export const urlCreateMember = `${baseURL}/Movie/CreateMember`
+export const urlGetEmail = `${baseURL}/Movie/GetEmail`
+export const urlGetDataByPopularity = `${baseURL}/Movie/GetDataByPopularity`
+export const urlGetDataByReleaseDate = `${baseURL}/Movie/GetDataByReleaseDate`
+export const urlGetDataByTrendingScore = `${baseURL}/Movie/GetDataByTrendingScore`
+export const urlGetAllPosters = `${baseURL}/Movie/GetAllPosters`
+export const urlgetByFilter = `${baseURL}/Movie/Search`;
+export const urlGetDataById = `${baseURL}/Movie/GetDataById`
+export const urlGetPosterById = `${baseURL}/Movie/GetPosterById`
+export const urlUpdateMemberData = `${baseURL}/Movie/UpdateMemberData`
+export const urlGetAvatarByEmail = `${baseURL}/Movie/GetAvatarByEmail`
+export const urlGetMemberById = `${baseURL}/Movie/GetMemberById`
+export const urlCreateComment = `${baseURL}/Movie/CreateComment`
+export const urlGetCommentsById = `${baseURL}/Movie/GetCommentsById`
+export const urlDeleteComment = `${baseURL}/Movie/DeleteComment`
+export const urlCreateReply = `${baseURL}/Movie/CreateReply`
+export const urlGetReplyById = `${baseURL}/Movie/GetReplyById`
+export const urlUpdatePassword = `${baseURL}/Movie/UpdatePassword`

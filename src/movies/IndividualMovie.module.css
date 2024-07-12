@@ -1,0 +1,50 @@
+.card {
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    background-color: #35505088;
+    width: 20%; /* Adjust based on your design */
+    margin-left: 46px; /* Adjust spacing between cards */
+    margin-right: 0px;
+    margin-bottom: 20px; /* Adjust spacing between rows */
+}
+
+.image {
+    width: 100%; /* Ensure the image fills its container */
+    height: auto; /* Maintain aspect ratio */
+    display: block; 
+    border-radius: 8px 8px 0 0;
+    object-fit: cover; /* Ensures the image covers the entire container */
+}
+
+.card:hover {
+    opacity: 1;
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+    margin: 0;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.summary {
+    margin: 10px 0;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.trailerButton {
+    background: #ff0000;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.trailerButton:hover {
+    background: #cc0000;
+}
